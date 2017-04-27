@@ -20,7 +20,7 @@ body, span, div, table, tr, tbody, tfoot, td, hr {
   }
 
   body{
-    background-color: #AA7C39 !important;
+    background-color:#D7C4B2 !important;
   }
 
   #name{
@@ -31,14 +31,18 @@ body, span, div, table, tr, tbody, tfoot, td, hr {
   }
 
   .leftbox{
-    background-color: #043768 !important;
-    color: #626B75 !important;
+    background-color:#486C60 !important;
+    color: #E2DBD7 !important;
     height: 200vh !important;
   }
 
   .aboutme{
-    color: #626B75 !important;
+    color: #E2DBD7 !important;
     font-size: 27px !important;
+  }
+
+  .doublebox{
+    text-align: center;
   }
 
   .brandstatement{
@@ -63,37 +67,59 @@ body, span, div, table, tr, tbody, tfoot, td, hr {
 
 
   .material-icons {
-    color: #626B75 !important;
+    color: #E2DBD7 !important;
   }
 
   .fa:before {
-    color: #626B75 !important;
+    color: #E2DBD7 !important;
+  }
+
+  .fa.fa-chevron-circle-right:before{
+    color: black !important;
   }
 
   .travel{
-    color: #626B75 !important;
+    color: #E2DBD7 !important;
     font-size: 27px !important;
   }
 
   .work{
-    color: #626B75 !important;
+    color: #E2DBD7 !important;
     font-size: 27px !important;
   }
 
   .education{
-    color: #626B75 !important;
+    color: #E2DBD7 !important;
     font-size: 27px !important;
   }
 
   .WDI{
-    color: #626B75 !important;
+    color: #E2DBD7 !important;
     font-size: 27px !important;
+  }
+
+  ul {
+    list-style-type: none !important;
+  }
+
+  .sidebarli{
+    padding-left: 20px!important;
+    color: #E2DBD7 !important;
+  }
+
+  .liitem{
+    padding-left: 20px!important;
+  }
+
+
+  .list-group-item {
+    padding: 3px 10px !important;
   }
 
 }
 
 .material-icons {
-  color: #626B75
+  color: #E2DBD7
 }
 
 
