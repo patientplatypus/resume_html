@@ -1,0 +1,129 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Material+Icons|Francois+One|Merriweather+Sans|Palanquin+Dark');
+</style>
+
+body, span, div, table, tr, tbody, tfoot, td, hr {
+    -webkit-print-color-adjust: exact;
+}
+
+@media print {
+
+  @page{
+   margin:0;
+  }
+
+/*626B75 for side bar*/
+
+  .container{
+    padding: 0px !important;
+  }
+
+  body{
+    background-color: #AA7C39 !important;
+  }
+
+  #name{
+    background-color: #A05F00 !important;
+    color: #552900 !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  .leftbox{
+    background-color: #043768 !important;
+    color: #626B75 !important;
+    height: 200vh !important;
+  }
+
+  .aboutme{
+    color: #626B75 !important;
+    font-size: 27px !important;
+  }
+
+  .brandstatement{
+    margin-top: 10px !important;
+    border-style: solid !important;
+    border-width: 5px !important;
+    border-radius: 5px !important;
+    border-color: #2A4D6E !important;
+    text-align: justify !important;
+    text-justify: inter-word !important;
+  }
+
+  .brandstatementp{
+    margin-top: 10px;
+  }
+
+
+  .travelstatement{
+    background-color: #AA8E39 !important;
+    width: 100% !important;
+  }
+
+
+  .material-icons {
+    color: #626B75 !important;
+  }
+
+  .fa:before {
+    color: #626B75 !important;
+  }
+
+  .travel{
+    color: #626B75 !important;
+    font-size: 27px !important;
+  }
+
+  .work{
+    color: #626B75 !important;
+    font-size: 27px !important;
+  }
+
+  .education{
+    color: #626B75 !important;
+    font-size: 27px !important;
+  }
+
+  .WDI{
+    color: #626B75 !important;
+    font-size: 27px !important;
+  }
+
+}
+
+.material-icons {
+  color: #626B75
+}
+
+
+body{
+    font-family: 'Archivo Black', sans-serif;
+    height: 100vh;
+}
+
+
+html{
+  height: 100vh;
+}
+
+#name{
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  font-size: 33px;
+  text-decoration-style: double;
+  background-color: red;
+}
+
+.github{
+  text-align: right;
+  font-family: 'Archivo Black', sans-serif;
+}
+.email{
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+}
+.tumblr{
+  text-align: left;
+  font-family: 'Archivo Black', sans-serif;
+}
