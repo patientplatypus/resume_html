@@ -24,16 +24,82 @@ body, span, div, table, tr, tbody, tfoot, td, hr {
   }
 
   #name{
-    background-color: #A05F00 !important;
-    color: #552900 !important;
+    background-color: #D7C4B2 !important;
+    color: #486C60 !important;
     width: 100% !important;
     margin: 0 auto !important;
+    font-size: 75px !important;
+  }
+
+  .myProjects{
+    font-size: 10px !important;
+    justify-content: left !important;
+    align-content: left !important;
+    text-align: left !important;
+  }
+
+  .SectionsHeader h4{
+    margin: 2px auto !important;
+    padding: 0 !important;
+    background-color: #486C60 !important;
+    color: #E2DBD7 !important;
+    width: 100% !important;
+    padding: 5px !important;
+    border-radius: 5px !important;
+    border-width: 0px !important;
+    /*text-decoration: underline !important ;*/
+  }
+
+  .ThreeProjects{
+    margin:0 !important;
+  }
+
+  .OneOfProjects{
+    justify-content: left !important;
+    align-content: left !important;
+    text-align: left !important;
+    margin: 0 auto !important;
+    /*word-wrap: break-word !important  ;*/
+  }
+
+  .sectionGroup ul{
+    margin-bottom: 5px !important;
+    padding: 0 !important;
+  }
+
+  .sectionGroup{
+    margin-left:5px !important;
+    margin-right: 5px !important;
+  }
+
+  .formattingContainerFluid{
+    margin: 0 !important;
+    /*padding: 0 !important;*/
+  }
+
+  .OneOfProjects p {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 2px !important;
+  }
+
+  .OneOfProjects h4 {
+    padding: 0px !important;
+    margin: 2px !important;
   }
 
   .leftbox{
-    background-color:#486C60 !important;
+    /*background-color:#486C60 !important;*/
     color: #E2DBD7 !important;
-    height: 200vh !important;
+    height: 88vh !important;
+
+    background: -moz-linear-gradient(270deg, rgba(72,108,96,1) 0%, rgba(10,102,101,1) 86%, rgba(0,102,102,0.6) 100%) !important; /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(72,108,96,1)), color-stop(86%, rgba(10,102,101,1)), color-stop(100%, rgba(0,102,102,0.6))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(270deg, rgba(72,108,96,1) 0%, rgba(10,102,101,1) 86%, rgba(0,102,102,0.6) 100%) !important; /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(270deg, rgba(72,108,96,1) 0%, rgba(10,102,101,1) 86%, rgba(0,102,102,0.6) 100%) !important; /* opera 11.10+ */
+    background: -ms-linear-gradient(270deg, rgba(72,108,96,1) 0%, rgba(10,102,101,1) 86%, rgba(0,102,102,0.6) 100%) !important; /* ie10+ */
+    background: linear-gradient(180deg, rgba(72,108,96,1) 0%, rgba(10,102,101,1) 86%, rgba(0,102,102,0.6) 100%) !important; /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#486C60', endColorstr='#006666',GradientType=0 ) !important; /* ie6-9 */
   }
 
   .aboutme{
@@ -53,10 +119,22 @@ body, span, div, table, tr, tbody, tfoot, td, hr {
     border-color: #2A4D6E !important;
     text-align: justify !important;
     text-justify: inter-word !important;
+    padding: 3px !important;
+    margin-bottom: 0px;
   }
 
-  .brandstatementp{
-    margin-top: 10px;
+  .brandstatementRow{
+    margin-bottom: 3px !important;
+  }
+
+  .workexperienceRow{
+    margin-top: 0px !important;
+  }
+
+  .brandstatement p{
+    margin: 1px !important;
+    padding: 0px !important;
+    line-height: 15px !important;
   }
 
 
@@ -80,22 +158,27 @@ body, span, div, table, tr, tbody, tfoot, td, hr {
 
   .travel{
     color: #E2DBD7 !important;
-    font-size: 27px !important;
+    font-size: 18px !important;
   }
 
   .work{
     color: #E2DBD7 !important;
-    font-size: 27px !important;
+    font-size: 18px !important;
   }
 
   .education{
     color: #E2DBD7 !important;
-    font-size: 27px !important;
+    font-size: 18px !important;
+  }
+
+  .skills{
+    color: #E2DBD7 !important;
+    font-size: 18px !important;
   }
 
   .WDI{
     color: #E2DBD7 !important;
-    font-size: 27px !important;
+    font-size: 18px !important;
   }
 
   ul {
@@ -103,14 +186,75 @@ body, span, div, table, tr, tbody, tfoot, td, hr {
   }
 
   .sidebarli{
-    padding-left: 20px!important;
+    padding-left: 10px!important;
     color: #E2DBD7 !important;
   }
 
   .liitem{
-    padding-left: 20px!important;
+    padding-left: 10px!important;
   }
 
+  .jobItem{
+    font-size: 10px !important;
+  }
+
+  .platypus{
+    opacity: 90% !important;
+    /*-webkit-filter: invert(100%) !important;
+    filter: invert(100%) !important;*/
+    -ms-transform: rotate(90deg) !important; /* IE 9 */
+    -webkit-transform: rotate(90deg) !important; /* Chrome, Safari, Opera */
+    transform: rotate(90deg) !important;
+    height: 60px !important;
+    width: auto !important;
+    top: 90px !important;
+    left: 338px !important;
+    position: absolute !important;
+    /*margin-left: 70px !important;*/
+    /*text-align: center !important;
+    padding-left: 50px !important;
+    margin-top: 25px !important;*/
+  }
+
+
+  .stream2{
+    opacity: 90% !important;
+    /*-webkit-filter: invert(100%) !important;
+    filter: invert(100%) !important;*/
+    height: 20px !important;
+    width: 215px !important;
+    top: 110px !important;
+    left: 383px !important;
+    position: absolute !important;
+    /*margin-left: 70px !important;*/
+    /*text-align: center !important;
+    padding-left: 50px !important;
+    margin-top: 25px !important;*/
+  }
+
+  .stream1{
+    opacity: 90% !important;
+    /*-webkit-filter: invert(100%) !important;
+    filter: invert(100%) !important;*/
+    height: 20px !important;
+    width: 200px !important;
+    top: 110px !important;
+    left: 162px !important;
+    position: absolute !important;
+    /*margin-left: 70px !important;*/
+    /*text-align: center !important;
+    padding-left: 50px !important;
+    margin-top: 25px !important;*/
+  }
+
+  .jobtitle{
+    font-size: 12px !important;
+    padding: 0px !important;
+  }
+
+  .jobtitle p{
+    margin: 0px !important;
+  }
 
   .list-group-item {
     padding: 3px 10px !important;
@@ -141,14 +285,28 @@ html{
   background-color: red;
 }
 
+.underBar{
+  text-align: center !important;
+  background: rgba(72,108,96,1) !important;
+  padding-top: 7px !important;
+}
+
 .github{
   text-align: right;
+  color: #E2DBD7;
   font-family: 'Archivo Black', sans-serif;
 }
 .email{
   text-align: center;
+  color: #E2DBD7;
   font-family: 'Archivo Black', sans-serif;
 }
+
+.github p, .email p{
+  color: white !important;
+  line-height: 10px !important;
+}
+
 .tumblr{
   text-align: left;
   font-family: 'Archivo Black', sans-serif;
