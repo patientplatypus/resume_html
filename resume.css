@@ -9,6 +9,14 @@ body, span, div, table, tr, tbody, tfoot, td, hr {
 
 @media print {
 
+
+  a:link:after,
+  a:visited:after {
+      content: "" !important;
+  }
+
+
+
   @page{
    margin:0;
   }
