@@ -52,7 +52,7 @@ body, span, div, table, tr, tbody, tfoot, td, hr {
     background-color: #486C60 !important;
     color: #E2DBD7 !important;
     width: 100% !important;
-    padding: 5px !important;
+    padding: 0px !important;
     border-radius: 5px !important;
     border-width: 0px !important;
     /*text-decoration: underline !important ;*/
@@ -71,7 +71,7 @@ body, span, div, table, tr, tbody, tfoot, td, hr {
   }
 
   .sectionGroup ul{
-    margin-bottom: 5px !important;
+    margin-bottom: 10px !important;
     padding: 0 !important;
   }
 
@@ -100,6 +100,7 @@ body, span, div, table, tr, tbody, tfoot, td, hr {
     /*background-color:#486C60 !important;*/
     color: #E2DBD7 !important;
     height: 88vh !important;
+    width: 22%;
 
     background: -moz-linear-gradient(270deg, rgba(72,108,96,1) 0%, rgba(10,102,101,1) 86%, rgba(0,102,102,0.6) 100%) !important; /* ff3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(72,108,96,1)), color-stop(86%, rgba(10,102,101,1)), color-stop(100%, rgba(0,102,102,0.6))); /* safari4+,chrome */
